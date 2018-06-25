@@ -21,3 +21,6 @@ if ( $incoming_signature === $signature && $incoming_app_id === $app_id){
   //do your magic here
 
 }
+
+//return ok
+echo "OK";

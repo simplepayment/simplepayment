@@ -3,8 +3,8 @@
 include_once __DIR__ . "/SimplePayment.php";
 
 // FROM Simplepayment
-$app_id = '58c787cf398e82bea93ce070';
-$secret_key = '686hp2j143l37lsapgdfhl4n29';
+$app_id = '5b18b66ceed56c5e2f13b122';
+$secret_key = 's0nmjCAlP0GrDZDJWo0ELjuf1a3lGw2PlB5Ke8Hk';
 
 $redirect_url = 'http://your-domain.com/redirect_url';
 $testing = true; // development mode

@@ -10,7 +10,8 @@ $redirect_url = 'http://your-domain.com/redirect_url';
 $testing = false; // development mode
 
 $data = [
-  'id' => '5b2e1344eef87c12b425f700'
+  'timestamp' => time(),
+  'id' => '5b2e1344eef87c12b425f701'
 ];
 
 $json_data = json_encode( $data );
@@ -21,7 +22,10 @@ $response = SimplePayment::check( $app_id, $signature, $json_data, $testing );
 
 $arrayHeaders = SimplePayment::getHeaders( $response[0] );
 //verify the returned signature if you wish
+var_dump( $arrayHeaders );
 
 $arrayResponse = json_decode( $response[1], true );
+
+var_dump( SimplePayment::encrypt(  $response[1], $secret_key) );
 
 var_dump( $response[1]);
