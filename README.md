@@ -1,5 +1,5 @@
 # Simplepayment
-You can get Api library over here.
+You can get Api library over here. If you have examples of other languages, please submit a pr.
 
 # URL
 
