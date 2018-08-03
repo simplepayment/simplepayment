@@ -3,7 +3,7 @@ You can get Api library over here. If you have examples of other languages, plea
 
 # URL
 
-Sandbox : ```https://sandbox.simplepayment.solutions/api/v1/create```
+Sandbox : ```https://staging.simplepayment.solutions/api/v1/create```
 
 Production : ```https://api.simplepayment.solutions/api/v1/create```
 
