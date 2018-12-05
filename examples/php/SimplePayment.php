@@ -3,7 +3,7 @@
 class SimplePayment
 {
 
-  const SANDBOX_URL = 'https://sandbox.simplepayment.solutions/';
+  const SANDBOX_URL = 'https://staging.simplepayment.solutions/';
 
   const PRODUCTION_URL = 'https://api.simplepayment.solutions/';
 
